@@ -15,7 +15,7 @@
 - [Yaneth Ramirez]()
 - [Hugo Salazar]()
 - [Douglas Sanchez]()
-- [Ricardo Moreira]()
+- [Rodrigo Moreira]()
 
 ## Objetivos y Alcance
 
