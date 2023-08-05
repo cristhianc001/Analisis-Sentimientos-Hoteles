@@ -6,8 +6,12 @@
 
 - [Autores](#autores)
 - [Objetivos y Alcance](#objetivos-y-alcance)
+- [KPI's](#kpis)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Stack Tecnológico](#stack-tecnólogico)
+- [Procedimiento](#procedimiento)
+- [Stack Tecnologico](#stack-tecnologico)
+- [Planificacion de esfuerzos](#planificacion-de-esfuerzos)
+- [Analisis Exploratorio](#analisis-exploratorio)
 
 
 ## Autores
@@ -29,4 +33,22 @@ Para el desarrollo de este proyecto se plantea trabajar con análisis de sentimi
 
 El cliente ha pedido que el estudio se limite a los estados de Florida, Nevada y California.
 
-## Stack Tecnológico
+## KPI's
+
+## Estructura del Proyecto
+
+- [`raw_data`](/raw_data.zip): Los datos sin procesar usados en este proyecto se tomaron directamente de la API gubernamental, pero si hay problemas de red en el servidor, hay una copia de seguridad en el archivo `raw_data.zip` en la raíz de este repositorio.
+- [`processed_data/`](processed_data/): contiene los datos transformados y limpios en formato CSV.
+- [`notebooks/`](notebooks/): Incluye notebooks de Python para limpieza de datos, EDA y visualización. También hay un script de python que importa los datos de la API directamente.
+- [`sql/`](sql/): Scripts de SQL de limpiezas menores, creación de dimensiones y relación de tablas.
+- [`img/`](img/): Incluye imágenes utilizadas en el readme.
+- [`visualizations/`](visualizations/): Incluye graficos de Python, dashboards y archivos de Power BI para visualización de datos.
+
+## Procedimiento
+
+## Stack Tecnologico
+
+## Planificacion de esfuerzos
+
+## Analisis Exploratorio
+
