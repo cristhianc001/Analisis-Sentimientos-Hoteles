@@ -77,5 +77,8 @@ El analisis exploratorio de datos se realizó con las librerias de Python Matplo
 
 ## Planificacion de esfuerzos
 
+Para visualizar el diagrama en linea, se puede acceder desde este [enlace](https://app.powerbi.com/view?r=eyJrIjoiY2I3MGQ0MTMtYWNlMC00ZGYxLWIwMjMtNGRhMDhiYjkzMzU5IiwidCI6IjYzMmQzMWE5LWIxNWItNDgyNi05ZWQxLTUyYmRmZmI5YjdlNCIsImMiOjl9)
+![Diagrama Gantt](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/gantt.png) 
+
 ## Analisis Exploratorio
 
