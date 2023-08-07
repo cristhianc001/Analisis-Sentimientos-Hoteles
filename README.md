@@ -18,10 +18,10 @@
 
 ## Autores
 - [Cristhian Castro](https://www.linkedin.com/in/cristhiancastro/): *Data Scientist*
-- [Yaneth Ramirez](): *Data Engineer*
+- [Yaneth Ramirez]( https://www.linkedin.com/in/yanethramirez/): *Data Engineer*
 - [Hugo Salazar](): *Data Engineer*
-- [Douglas Sanchez](): *Data Analyst*
-- [Rodrigo Moreira](): *Data Scientist*
+- [Douglas Sanchez](https://www.linkedin.com/in/douglassanchezcasanova/): *Data Analyst*
+- [Rodrigo Moreira](https://www.linkedin.com/in/rcmoreg): *Data Scientist*
 
 ## Objetivos y Alcance
 
