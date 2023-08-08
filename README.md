@@ -9,12 +9,14 @@
 - [Autores](#autores)
 - [Introduccion](#introduccion)
 - [Objetivos y Alcance](#objetivos-y-alcance)
-- [KPI's](#kpis)
+- [Key Performance Indicators](#key-performance-indicators)
 - [Estructura del repositorio](#estructura-del-repositorio)
 - [Tratamiento de Datos](#tratamiento-de-datos)
 - [Stack Tecnologico](#stack-tecnologico)
 - [Planificacion de esfuerzos](#planificacion-de-esfuerzos)
 - [Analisis Exploratorio de Datos](#analisis-exploratorio-de-datos)
+
+## Autores
 
 ***Data Analyst***:
 [Douglas Sanchez](https://www.linkedin.com/in/douglassanchezcasanova/)
@@ -45,7 +47,7 @@ Igualmente, realizar un análisis frente a los competidores al comparar y analiz
 
 Para el desarrollo de este proyecto se plantea trabajar con análisis de sentimientos y procesamiento de lenguaje natural para encontrar quejas y problemas recurrentes, así como comparar las reviews y calificaciones de los hoteles de la competencia.
 
-## Key Performance Indicators (KPI's)
+## Key Performance Indicators
 
 1.	Porcentaje de revisiones positivas: Medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. 
 2.  Porcentaje de revisiones negativas: Medir la proporción de revisiones que son consideradas negativas en comparación con el total de revisiones analizadas. 
