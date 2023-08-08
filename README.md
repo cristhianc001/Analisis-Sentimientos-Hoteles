@@ -7,35 +7,55 @@
 # Tabla de Contenido
 
 - [Autores](#autores)
+- [Introduccion](#introduccion)
 - [Objetivos y Alcance](#objetivos-y-alcance)
 - [KPI's](#kpis)
 - [Estructura del repositorio](#estructura-del-repositorio)
 - [Tratamiento de Datos](#tratamiento-de-datos)
 - [Stack Tecnologico](#stack-tecnologico)
 - [Planificacion de esfuerzos](#planificacion-de-esfuerzos)
-- [Analisis Exploratorio](#analisis-exploratorio)
+- [Analisis Exploratorio de Datos](#analisis-exploratorio-de-datos)
+
+***Data Analyst***:
+[Douglas Sanchez](https://www.linkedin.com/in/douglassanchezcasanova/)
+
+Como Data Analyst, desempeñó un papel crucial en la interpretación y análisis profundo de los datos recopilados. Utilizó su habilidad para detectar patrones y tendencias en las reseñas y comentarios de los clientes, proporcionando información valiosa para la toma de decisiones informadas.
+
+***Data Engineers***: [Yaneth Ramirez]( https://www.linkedin.com/in/yanethramirez/), [Hugo Salazar](https://www.linkedin.com/in/hasalazars/) 
+
+El equipo de Data Engineers, liderado por Yaneth Ramírez y Hugo Salazar, asumió la responsabilidad de la recopilación, limpieza y preparación de los datos. Gracias a su experiencia en ingeniería de datos, aseguraron que los datos estuvieran listos para su análisis, permitiendo un flujo eficiente desde la extracción hasta la interpretación.
+
+***Data Scientists***: 
+[Cristhian Castro](https://www.linkedin.com/in/cristhiancastro/), [Rodrigo Moreira](https://www.linkedin.com/in/rcmoreg)
+
+Los Data Scientists del equipo, se centraron en la aplicación de algoritmos de procesamiento de lenguaje natural y análisis de sentimientos en las reseñas. Su experiencia permitió la identificación de quejas recurrentes y la extracción de información valiosa para el cliente.
 
 
-## Autores
-- [Cristhian Castro](https://www.linkedin.com/in/cristhiancastro/): *Data Scientist*
-- [Yaneth Ramirez]( https://www.linkedin.com/in/yanethramirez/): *Data Engineer*
-- [Hugo Salazar](): *Data Engineer*
-- [Douglas Sanchez](https://www.linkedin.com/in/douglassanchezcasanova/): *Data Analyst*
-- [Rodrigo Moreira](https://www.linkedin.com/in/rcmoreg): *Data Scientist*
+
+
+## Introduccion
+
+Una cadena de hoteles muy importante de Estados Unidos solicitó a LATAM DATA CONSULTORES un análisis de reviews y comentarios en diferentes plataformas, con el fin de encontrar oportunidades de mejora para resolver problemas de manera proactiva e impactar en la satisfacción de sus clientes.
 
 ## Objetivos y Alcance
+Evaluar la satisfacción general de los huéspedes: Utilizando el análisis de sentimientos, buscamos medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. Esto nos permitirá comprender la satisfacción general de los clientes con los servicios ofrecidos por la cadena hotelera.
+ 
+-	Identificar problemas y quejas recurrentes: A través del procesamiento de lenguaje natural, buscaremos identificar temas y quejas recurrentes en las revisiones. Estas quejas pueden incluir problemas con el servicio al cliente, problemas en las habitaciones, demoras en el check-in, entre otros. Al identificar estos problemas, podremos tomar medidas para resolverlos y mejorar la experiencia del cliente.
 
-Una cadena de hoteles muy importante de Estados Unidos, que ha solicitado permanecer en el anonimato, solicitó a LATAM DATA CONSULTORES un análisis de reviews y comentarios en diferentes plataformas, con el fin de encontrar oportunidades de mejora para resolver problemas de manera proactiva e impactar en la satisfacción de sus clientes.
+-	Realizar un análisis comparativo con la competencia: Además de analizar las revisiones de la cadena hotelera, también compararemos su desempeño con los hoteles de la competencia. Esto nos permitirá determinar en qué áreas la cadena se destaca y en qué aspectos puede mejorar para mantener o mejorar su ventaja competitiva.
+ 
+**Alcance del Proyecto**: Para llevar a cabo este proyecto, trabajaremos con datos de revisiones y comentarios recopilados de plataformas como Yelp, Google Maps, Outscraper, Hotels.com. Estos datos serán sometidos a técnicas de análisis de sentimientos y procesamiento de lenguaje natural.
 
-Igualmente, realizar un análisis frente a los competidores al comparar y analizar su desempeño y poder tomar medidas para mejorar su ventaja competitiva.
-
-Para el desarrollo de este proyecto se plantea trabajar con análisis de sentimientos y procesamiento de lenguaje natural para encontrar quejas y problemas recurrentes, así como comparar las reviews y calificaciones de los hoteles de la competencia.
+El análisis se centrará en el período 2018 - 2023 y se limitará a las revisiones relacionadas con los servicios ofrecidos por la cadena hotelera, incluyendo reviews sobre las habitaciones, el servicio al cliente, el restaurante, entre otros. Las revisiones se clasificarán como positivas, negativas o neutrales en función del análisis de sentimientos realizado.
 
 ## Key Performance Indicators (KPI's)
 
 1.	Porcentaje de revisiones positivas: Medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. 
 2.  Porcentaje de revisiones negativas: Medir la proporción de revisiones que son consideradas negativas en comparación con el total de revisiones analizadas. 
 3.  Promedio de calificación: Medir la puntuación promedio dada por lo clientes acerca del servico.
+4. Número de reviews:  Medir la cantidad de reviews en periodos determinados para analizar los meses de mayor ocupación en Hoteles en Estados Unidos.
+5.	Número de menciones positivas/negativas por categoría de servicio: Analizar las revisiones en función de las diferentes categorías de servicios del hotel (habitaciones, restaurante, atención al cliente, etc.) y contar el número de menciones positivas y negativas en cada categoría.
+6.	Comparación de sentimiento con la competencia: Comparar el sentimiento de las revisiones de tu hotel con el de los competidores directos. Esto proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
 
 ## Estructura del repositorio
 
@@ -43,19 +63,20 @@ Para el desarrollo de este proyecto se plantea trabajar con análisis de sentimi
 - [`img/`](img/): Incluye imágenes utilizadas en el readme. como la portada y visualizaciones.
 
 
-## Tratamiento de Datos
+## Flujo de Datos
 - Extracción de datos de hoteles de Estados Unidos por medio de librerias de Python como json, os, Pandas y AST y usando como fuente archivos iniciales de [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) y [Yelp!](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) en su mayoria presentes de forma no estructurada en formato json y fueron transformados a csv.
 - Limpieza de dichos datos, lo que incluye eliminación de nulos y duplicados, renombrar columnas, arreglar columnas de fechas y normalización de tablas.
 - Análisis exploratorio de los datos para descubrir tendencias, cuotas de mercado, correlaciones, entre otros hallazgos.
+- Ingesta de datos en el servicio de almacenamiento de Google Cloud.
+- Construcción de Data Warehouse automatizado con el batch de datos provenientes de Google Cloud Storage, incluyendo carga incremental con data stream proveniento de las API de Google Maps y Yelp!
+- Consulta a las bases de datos del data warehouse para construir modelo de aprendizaje y dashboards.
 
 ## Stack Tecnologico
 
 ### Programación
 <a href="https://docs.python.org/3/library/ast.html" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> <a href="https://jupyter.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" alt="jupyter" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/docs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://numpy.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" alt="numpy" width="40" height="40"/> </a> <a href="https://huggingface.co/" target="_blank" rel="noreferrer"> <img src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg" alt="hugging-face" width="40" height="40"/> </a> <a href="https://spacy.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/SpaCy_logo.svg" alt="spacy" width="40" height="40"/> </a> <a href="https://textblob.readthedocs.io/en/dev/" target="_blank" rel="noreferrer"> <img src="https://textblob.readthedocs.io/en/dev/_static/textblob-logo.png" alt="textblob" width="40" height="40"/> </a> 
 
-El lenguaje de programación principal es Python, el cual será usado, en conjunto de cuadernos de jupyter, para tratar los datos, explorarlos y modelarlos. Las librerias a usar para ETL y exploración son Pandas, NumPy, AST, json y os, mientras que en el modelo y procesamiento de lenguaje natural se realizarán iteraciones con [Vader](https://github.com/cjhutto/vaderSentiment), [NLTK](https://www.nltk.org/), spaCy, textblob y modelo pre-entrenado disponibles en Hugging Face.
-
-
+El lenguaje de programación principal es Python, el cual será usado, en conjunto de cuadernos de jupyter, para tratar los datos, explorarlos y modelarlos. Las librerias a usar para ETL y exploración son Pandas, NumPy, AST, json y os, mientras que en el modelo y procesamiento de lenguaje natural se realizarán iteraciones con [Vader](https://github.com/cjhutto/vaderSentiment), [NLTK](https://www.nltk.org/), spaCy, textblob y modelo pre-entrenado disponibles en Hugging Face. También se usara DAX y HTML para la visualización de datos del producto final.
 
 
 
@@ -76,9 +97,39 @@ Otra ventaja de GCP sobre AWS es la simpleza, la capacitación del personal a ca
 El analisis exploratorio de datos se realizó con las librerias de Python Matplotlib y Seaborn, por otra parte para realizar los dashboards se usará Power BI por medio de una conexión con BigQuery, el servicio de data warehouse de GCP.
 
 ## Planificacion de esfuerzos
+Adoptamos la metodología ágil Scrum para la ejecución del proyecto. El equipo se estructuró en ciclos de trabajo denominados "sprints" con una duración de dos semanas. Se llevaron a cabo reuniones diarias de seguimiento y al final de cada sprint, se efectuó una sesión de revisión. El cronograma completo está reflejado en el siguiente diagrama de Gantt.
 
-Para visualizar el diagrama en linea, se puede acceder desde este [enlace](https://app.powerbi.com/view?r=eyJrIjoiY2I3MGQ0MTMtYWNlMC00ZGYxLWIwMjMtNGRhMDhiYjkzMzU5IiwidCI6IjYzMmQzMWE5LWIxNWItNDgyNi05ZWQxLTUyYmRmZmI5YjdlNCIsImMiOjl9)
+Para visualizar el diagrama en linea, se puede acceder desde este [enlace](https://app.powerbi.com/view?r=eyJrIjoiYTcxMTk5NDYtM2M0OS00YTI0LTkxNWYtZWQzZTljMjUxNTg4IiwidCI6IjYzMmQzMWE5LWIxNWItNDgyNi05ZWQxLTUyYmRmZmI5YjdlNCIsImMiOjl9).
 ![Diagrama Gantt](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/gantt.png) 
 
-## Analisis Exploratorio
+## Analisis Exploratorio de Datos
 
+A continuación se muestran algunos insights hallados en los EDA, para consultar la información completa consultar los archivos de analisis exploratorio de datos en  [`notebooks/`](notebooks/).
+
+La mayoria de las hoteles de la data extraida de Google Maps se encuentran en los estados de California, Florida, Nueva York y Texas, lo cual concuerda con la realidad pues son los estados mas turisticos de Estados Unidos.
+
+![Hoteles por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/barplot-hoteles-estados.png)
+*Hoteles por Estado en dataset de Google Maps*
+
+A pesar de que no hayan muchos hoteles registrados en Oklahoma, este estado esta sobre-representado con muchas reviews en pocos hoteles como se muestra en las siguientes figuras.
+
+![Reviews por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/barplot-reviews-estados.png)
+*Reviews por Estado en dataset de Google Maps*
+
+![Reviews por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/ratio-reviews-hoteles.png)
+*Ratio reviews/hoteles por Estado en dataset de Google Maps*
+
+En términos generales hay correlación entre número de reviews con el número de hoteles, excepto por  outliers como Oklahoma con 45 hoteles y 3761 reviews y Colorado con 57 hoteles y 2919 reviews
+
+![Correlacion por Reviews](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/correlacion-hoteles-reviewspng.png)
+*Correlación entre numero de reviews y numero de hoteles en dataset de Google Maps*
+
+El analisis por tiempo indica una reduccion de review en el 2019 y un desplome posterior en el 2020 a causa de la pandemia.
+
+![Reviews por año](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-reviews-a%C3%B1o.png)
+*Correlación entre numero de reviews y numero de hoteles en dataset de Google Maps*
+
+El número de reviews mes por mes nos indica que los meses de mayor ocupación en Hoteles en Estados Unidos se da en periodos vacacionales. Encontramos un pequeño pico en Marzo que concide con Spring Break y en vacaciones de Verano entre Julio y Agosto. Por otra parte, el pico más bajo se encuentra en el mes de Noviembre, coincidiendo con Thanks Giving, fecha en la cual todas las personas pasan tiempo con familiares y amigos en sus respectivos hogares.
+
+![Reviews por mes](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-meses-reviews.png)
+*Correlación entre numero de reviews y numero de hoteles en dataset de Google Maps*
