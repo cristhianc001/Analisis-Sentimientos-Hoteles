@@ -60,10 +60,9 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 
 1.	Porcentaje de revisiones positivas: Medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. 
 2.  Porcentaje de revisiones negativas: Medir la proporción de revisiones que son consideradas negativas en comparación con el total de revisiones analizadas. 
-3.  Promedio de calificación: Medir la puntuación promedio dada por lo clientes acerca del servico.
-4. Número de reviews:  Medir la cantidad de reviews en periodos determinados para analizar los meses de mayor ocupación en Hoteles en Estados Unidos.
-5.	Número de menciones positivas/negativas por categoría de servicio: Analizar las revisiones en función de las diferentes categorías de servicios del hotel (habitaciones, restaurante, atención al cliente, etc.) y contar el número de menciones positivas y negativas en cada categoría.
-6.	Comparación de sentimiento con la competencia: Comparar el sentimiento de las revisiones de tu hotel con el de los competidores directos. Esto proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
+3.  Puntuación promedio de sentimiento: Calcular la puntuación promedio de sentimiento de las revisiones, asignando valores a las palabras clave o frases que reflejen emociones positivas o negativas. Esto permite medir el nivel general de satisfacción y detectar tendencias.
+4. Número de menciones positivas/negativas por categoría de servicio: Analizar las revisiones en función de las diferentes categorías de servicios del hotel (habitaciones, restaurante, atención al cliente, etc.) y contar el número de menciones positivas y negativas en cada categoría. Esto ayuda a identificar las áreas específicas que están generando más comentarios emocionales.
+5.	Comparación de sentimiento con la competencia: Comparar el sentimiento de las revisiones de tu hotel con el de los competidores directos. Esto proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
 
 ## Estructura del repositorio
 
