@@ -38,15 +38,12 @@ Los Data Scientists del equipo, se centraron en la aplicación de algoritmos de 
 Una cadena de hoteles muy importante de Estados Unidos solicitó a LATAM DATA CONSULTORES un análisis de reviews y comentarios en diferentes plataformas, con el fin de encontrar oportunidades de mejora para resolver problemas de manera proactiva e impactar en la satisfacción de sus clientes.
 
 ## Objetivos y Alcance
-Evaluar la satisfacción general de los huéspedes: Utilizando el análisis de sentimientos, buscamos medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. Esto nos permitirá comprender la satisfacción general de los clientes con los servicios ofrecidos por la cadena hotelera.
- 
--	Identificar problemas y quejas recurrentes: A través del procesamiento de lenguaje natural, buscaremos identificar temas y quejas recurrentes en las revisiones. Estas quejas pueden incluir problemas con el servicio al cliente, problemas en las habitaciones, demoras en el check-in, entre otros. Al identificar estos problemas, podremos tomar medidas para resolverlos y mejorar la experiencia del cliente.
 
--	Realizar un análisis comparativo con la competencia: Además de analizar las revisiones de la cadena hotelera, también compararemos su desempeño con los hoteles de la competencia. Esto nos permitirá determinar en qué áreas la cadena se destaca y en qué aspectos puede mejorar para mantener o mejorar su ventaja competitiva.
- 
-**Alcance del Proyecto**: Para llevar a cabo este proyecto, trabajaremos con datos de revisiones y comentarios recopilados de plataformas como Yelp, Google Maps, Outscraper, Hotels.com. Estos datos serán sometidos a técnicas de análisis de sentimientos y procesamiento de lenguaje natural.
+Una cadena de hoteles muy importante de Estados Unidos, que ha solicitado permanecer en el anonimato, solicitó a LATAM DATA CONSULTORES un análisis de reviews y comentarios en diferentes plataformas, con el fin de encontrar oportunidades de mejora para resolver problemas de manera proactiva e impactar en la satisfacción de sus clientes.
 
-El análisis se centrará en el período 2018 - 2023 y se limitará a las revisiones relacionadas con los servicios ofrecidos por la cadena hotelera, incluyendo reviews sobre las habitaciones, el servicio al cliente, el restaurante, entre otros. Las revisiones se clasificarán como positivas, negativas o neutrales en función del análisis de sentimientos realizado.
+Igualmente, realizar un análisis frente a los competidores al comparar y analizar su desempeño y poder tomar medidas para mejorar su ventaja competitiva.
+
+Para el desarrollo de este proyecto se plantea trabajar con análisis de sentimientos y procesamiento de lenguaje natural para encontrar quejas y problemas recurrentes, así como comparar las reviews y calificaciones de los hoteles de la competencia.
 
 ## Key Performance Indicators (KPI's)
 
