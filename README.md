@@ -1,7 +1,6 @@
-# ANÁLISIS DE SENTIMIENTO DE LA CADENA RAMADA EN EEUU
 
 <p align="center">
-<img src="https://img.freepik.com/premium-vector/luxurious-service-satisfied-customer-feedback-positive-review-bed-breakfast_566886-3831.jpg?w=1060" height="350">
+  <img src="img/1.jpg" alt="analisis de sentimientos">
 </p>
 
 # Tabla de Contenido
@@ -21,6 +20,10 @@
 - [`notebooks/`](notebooks/): Incluye notebooks de Python para limpieza de datos, EDA y modelos de machine learning.
 - [`img/`](img/): Incluye imágenes utilizadas en el readme. como la portada y visualizaciones.
 
+<p align="center">
+  <img src="img/2.jpg" alt="Autores">
+</p>
+
 # Autores
 
 ***Data Analyst***:
@@ -37,6 +40,10 @@ El equipo de Data Engineers, liderado por Yaneth Ramírez y Hugo Salazar, asumi�
 
 Los Data Scientists del equipo, se centraron en la aplicación de algoritmos de procesamiento de lenguaje natural y análisis de sentimientos en las reseñas. Su experiencia permitió la identificación de quejas recurrentes y la extracción de información valiosa para el cliente.
 
+<p align="center">
+  <img src="img/3.jpg" alt="introduccion">
+</p>
+
 # Introduccion
 
 Una cadena de hoteles muy importante de Estados Unidos solicitó a LATAM DATA CONSULTORES un análisis de reviews y comentarios en diferentes plataformas, con el fin de encontrar oportunidades de mejora para resolver problemas de manera proactiva e impactar en la satisfacción de sus clientes.
@@ -44,22 +51,29 @@ Una cadena de hoteles muy importante de Estados Unidos solicitó a LATAM DATA CO
 
 # Objetivos y Alcance
 
-El **objetivo** principal es identificar y abordar las áreas problemáticas que afectan la satisfacción del cliente. El análisis de sentimientos puede ayudar a detectar las principales preocupaciones o feedback negativo de los huéspedes.
-
-A través de técnicas de análisis de sentimientos y procesamiento de lenguaje natural, buscamos obtener información valiosa para mejorar la satisfacción del cliente, identificar oportunidades de mejora y resolver problemas de manera proactiva.
-
-**Objetivos Específicos**:
-Evaluar la satisfacción general de los huéspedes: Utilizando el análisis de sentimientos, buscamos medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. Esto nos permitirá comprender la satisfacción general de los clientes con los servicios ofrecidos por la cadena hotelera.
- 
--	Identificar problemas y quejas recurrentes: A través del procesamiento de lenguaje natural, buscaremos identificar temas y quejas recurrentes en las revisiones. Estas quejas pueden incluir problemas con el servicio al cliente, problemas en las habitaciones, demoras en el check-in, entre otros. Al identificar estos problemas, podremos tomar medidas para resolverlos y mejorar la experiencia del cliente.
-
--	Realizar un análisis comparativo con la competencia: Además de analizar las revisiones de la cadena hotelera, también compararemos su desempeño con los hoteles de la competencia. Esto nos permitirá determinar en qué áreas la cadena se destaca y en qué aspectos puede mejorar para mantener o mejorar su ventaja competitiva.
+**Objetivos General**: Identificar y brindar información relevante que permita abordar las áreas problemáticas que afectan la reputación, satisfacción del huésped y ocupación de los hoteles Ramada by Wyndham, a través del análisis de sentimientos de los comentarios proporcionados por los huéspedes. 
 
 
-**Alcance del Proyecto**: Para llevar a cabo este proyecto, trabajaremos con datos de revisiones y comentarios recopilados de plataformas como Yelp, Google Maps, Outscraper, Hotels.com. Estos datos serán sometidos a técnicas de análisis de sentimientos y procesamiento de lenguaje natural.
+**Objetivos Especificos**:
+
+1.- Realizar un análisis de los factores que influencian las calificaciones en Escala Likert otorgadas por los huéspedes, con el fin de clasificarlos de acuerdo con su efecto en el éxito del negocio. 
+
+2.- Identificar oportunidades de mejoras en el servicio al huésped en las diferentes áreas, que permitan recomendar adecuaciones a los procesos actuales. 
+
+3.- Proporcionar información que permita elaborar una estrategia comercial eficiente para mejorar la reputación, el servicio y la ocupación de los hoteles Ramada by Wyndham. 
+
+
+
+
+**Alcance del Proyecto**: 
+
+Para llevar a cabo este proyecto, trabajaremos con datos de revisiones y comentarios recopilados de plataformas como Yelp, Google Maps, Outscraper, Hotels.com. Estos datos serán sometidos a técnicas de análisis de sentimientos y procesamiento de lenguaje natural.
 
 El análisis se centrará en el período 2018 - 2023 y se limitará a las revisiones relacionadas con los servicios ofrecidos por la cadena hotelera, incluyendo reviews sobre las habitaciones, el servicio al cliente, el restaurante, entre otros. Las revisiones se clasificarán como positivas, negativas o neutrales en función del análisis de sentimientos realizado.
 
+<p align="center">
+  <img src="img/4.jpg" alt="Key Performance Indicators">
+</p>
 
 # Key Performance Indicators
 
@@ -69,6 +83,11 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 4. Número de menciones positivas/negativas por categoría de servicio: Analizar las revisiones en función de las diferentes categorías de servicios del hotel (habitaciones, restaurante, atención al cliente, etc.) y contar el número de menciones positivas y negativas en cada categoría. Esto ayuda a identificar las áreas específicas que están generando más comentarios emocionales.
 5.	Comparación de sentimiento con la competencia: Comparar el sentimiento de las revisiones de tu hotel con el de los competidores directos. Esto proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
 
+<p align="center">
+  <img src="img/5.jpg" alt="Flujo de datos">
+</p>
+
+
 # Flujo de Datos
 - Extracción de datos de hoteles de Estados Unidos por medio de librerias de Python como json, os, Pandas y AST y usando como fuente archivos iniciales de [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) y [Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) en su mayoria presentes de forma no estructurada en formato json y fueron transformados a csv.
 - Limpieza de dichos datos, lo que incluye eliminación de nulos y duplicados, renombrar columnas, arreglar columnas de fechas y normalización de tablas.
@@ -76,6 +95,10 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 - Ingesta de datos en el servicio de almacenamiento de Google Cloud.
 - Construcción de Data Warehouse automatizado con el batch de datos provenientes de Google Cloud Storage, incluyendo carga incremental con data stream proveniento de las API de Google Maps y Yelp
 - Consulta a las bases de datos del data warehouse para construir modelo de aprendizaje y dashboards.
+
+<p align="center">
+  <img src="img/6.jpg" alt="stack tecnologico">
+</p>
 
 # Stack Tecnologico
 
@@ -111,8 +134,15 @@ El analisis exploratorio de datos se realizó con las librerias de Python Matplo
 # Planificacion de esfuerzos
 Adoptamos la metodología ágil Scrum para la ejecución del proyecto. El equipo se estructuró en ciclos de trabajo denominados "sprints" con una duración de dos semanas. Se llevaron a cabo reuniones diarias de seguimiento y al final de cada sprint, se efectuó una sesión de revisión. El cronograma completo está reflejado en el siguiente diagrama de Gantt.
 
-Para visualizar el diagrama en linea, se puede acceder desde este [enlace](https://app.powerbi.com/view?r=eyJrIjoiYTcxMTk5NDYtM2M0OS00YTI0LTkxNWYtZWQzZTljMjUxNTg4IiwidCI6IjYzMmQzMWE5LWIxNWItNDgyNi05ZWQxLTUyYmRmZmI5YjdlNCIsImMiOjl9).
-![Diagrama Gantt](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/gantt.png) 
+Para visualizar el diagrama en linea, se puede acceder desde este [enlace](https://app.powerbi.com/view?r=eyJrIjoiMzUxZmY4YzEtZDcyNS00YjAyLWIwMjEtMDYwYmMyNWY3MTJkIiwidCI6IjYzMmQzMWE5LWIxNWItNDgyNi05ZWQxLTUyYmRmZmI5YjdlNCIsImMiOjl9).
+
+<p align="center">
+  <img src="img/Diagrama_gantt.png" alt="Diagrama_gantt">
+</p>
+
+<p align="center">
+  <img src="img/7.jpg" alt="Analisis exploratorio de datos">
+</p>
 
 # Analisis Exploratorio de Datos
 
