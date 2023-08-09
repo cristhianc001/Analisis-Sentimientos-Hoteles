@@ -161,7 +161,7 @@ En ambos dataset, el analisis por tiempo indica una reduccion de review en el 20
 ![Reviews por año](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-reviews-anio-yelp.png)
 *Reviews por año en dataset de Yelp*
 
-Mientrs que el número de reviews mes por mes nos indica que los meses de mayor ocupación en Hoteles en Estados Unidos se da en periodos vacacionales. Encontramos un pequeño pico en Marzo que concide con Spring Break y en vacaciones de Verano entre Julio y Agosto. Por otra parte, el pico más bajo se encuentra en el mes de Noviembre, coincidiendo con Thanks Giving, fecha en la cual todas las personas pasan tiempo con familiares y amigos en sus respectivos hogares.
+Mientras que el número de reviews mes por mes nos indica que los meses de mayor ocupación en Hoteles en Estados Unidos se da en periodos vacacionales. Encontramos un pequeño pico en Marzo que concide con Spring Break y en vacaciones de Verano entre Julio y Agosto. Por otra parte, el pico más bajo se encuentra en el mes de Noviembre, coincidiendo con Thanks Giving, fecha en la cual todas las personas pasan tiempo con familiares y amigos en sus respectivos hogares.
 
 ![Reviews por mes](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-meses-reviews-gmaps.png)
 *Reviews por mes en dataset de Google Maps*
@@ -188,3 +188,12 @@ Los hoteles Ramada serán el objetivo principal de este proyecto, por eso realiz
 *Relación sentimiento-rating de hoteles en Ramada dataset de Yelp*
 
 El numero de hoteles Ramada y reviews disponibles en los dataset proporcionados no son suficientes para realizar un buen analisis de datos y modelo de aprendizaje, por lo tanto, se recurrió a extraer nueva data por medio del consumo de la API de Google Maps y Yelp. Un ejemplo es el hotel Ramada by Wyndham Reno Hotel & Casino en Nevada.
+
+![Sentimiento de Hotel en Reno](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/sentimiento-anio-reno.png)
+*Evolución de sentimiento en Ramada by Wyndham Reno Hotel & Casino*
+
+![Reviews por año en Reno](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-reviews-anio-reno.png)
+*Reviews por año en Ramada by Wyndham Reno Hotel & Casino*
+
+![Reviews por mes en Reno](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-meses-reviews-reno.png)
+*Reviews por mes en Ramada by Wyndham Reno Hotel & Casino*
