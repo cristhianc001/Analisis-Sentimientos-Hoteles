@@ -120,28 +120,28 @@ A continuación se muestran algunos insights hallados en los EDA, para consultar
 
 La mayoria de las hoteles de la data extraida de Google Maps se encuentran en los estados de California, Florida, Nueva York y Texas, lo cual concuerda con la realidad pues son los estados mas turisticos de Estados Unidos.
 
-![Hoteles por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/barplot-hoteles-estados.png)
+![Hoteles por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/barplot-hoteles-estados-gmaps.png)
 *Hoteles por Estado en dataset de Google Maps*
 
 A pesar de que no hayan muchos hoteles registrados en Oklahoma, este estado esta sobre-representado con muchas reviews en pocos hoteles como se muestra en las siguientes figuras.
 
-![Reviews por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/barplot-reviews-estados.png)
+![Reviews por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/barplot-reviews-estados-gmaps.png)
 *Reviews por Estado en dataset de Google Maps*
 
-![Reviews por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/ratio-reviews-hoteles.png)
+![Reviews por Estado](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/ratio-reviews-hoteles-gmaps.png)
 *Ratio reviews/hoteles por Estado en dataset de Google Maps*
 
 En términos generales hay correlación entre número de reviews con el número de hoteles, excepto por  outliers como Oklahoma con 45 hoteles y 3761 reviews y Colorado con 57 hoteles y 2919 reviews
 
-![Correlacion por Reviews](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/correlacion-hoteles-reviewspng.png)
+![Correlacion por Reviews](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/correlacion-hoteles-reviews-gmaps.png)
 *Correlación entre numero de reviews y numero de hoteles en dataset de Google Maps*
 
 El analisis por tiempo indica una reduccion de review en el 2019 y un desplome posterior en el 2020 a causa de la pandemia.
 
-![Reviews por año](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-reviews-a%C3%B1o.png)
+![Reviews por año](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-reviews-anio-gmaps.png)
 *Correlación entre numero de reviews y numero de hoteles en dataset de Google Maps*
 
 El número de reviews mes por mes nos indica que los meses de mayor ocupación en Hoteles en Estados Unidos se da en periodos vacacionales. Encontramos un pequeño pico en Marzo que concide con Spring Break y en vacaciones de Verano entre Julio y Agosto. Por otra parte, el pico más bajo se encuentra en el mes de Noviembre, coincidiendo con Thanks Giving, fecha en la cual todas las personas pasan tiempo con familiares y amigos en sus respectivos hogares.
 
-![Reviews por mes](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-meses-reviews.png)
+![Reviews por mes](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-meses-reviews-gmaps.png)
 *Correlación entre numero de reviews y numero de hoteles en dataset de Google Maps*
