@@ -6,15 +6,20 @@
 
 # Tabla de Contenido
 
+- [Estructura del repositorio](#estructura-del-repositorio)
 - [Autores](#autores)
 - [Introduccion](#introduccion)
 - [Objetivos y Alcance](#objetivos-y-alcance)
 - [Key Performance Indicators](#key-performance-indicators)
-- [Estructura del repositorio](#estructura-del-repositorio)
 - [Flujo de Datos](#tratamiento-de-datos)
 - [Stack Tecnologico](#stack-tecnologico)
 - [Planificacion de esfuerzos](#planificacion-de-esfuerzos)
 - [Analisis Exploratorio de Datos](#analisis-exploratorio-de-datos)
+
+## Estructura del repositorio
+
+- [`notebooks/`](notebooks/): Incluye notebooks de Python para limpieza de datos, EDA y modelos de machine learning.
+- [`img/`](img/): Incluye imágenes utilizadas en el readme. como la portada y visualizaciones.
 
 ## Autores
 
@@ -63,12 +68,6 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 3.  Puntuación promedio de sentimiento: Calcular la puntuación promedio de sentimiento de las revisiones, asignando valores a las palabras clave o frases que reflejen emociones positivas o negativas. Esto permite medir el nivel general de satisfacción y detectar tendencias.
 4. Número de menciones positivas/negativas por categoría de servicio: Analizar las revisiones en función de las diferentes categorías de servicios del hotel (habitaciones, restaurante, atención al cliente, etc.) y contar el número de menciones positivas y negativas en cada categoría. Esto ayuda a identificar las áreas específicas que están generando más comentarios emocionales.
 5.	Comparación de sentimiento con la competencia: Comparar el sentimiento de las revisiones de tu hotel con el de los competidores directos. Esto proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
-
-## Estructura del repositorio
-
-- [`notebooks/`](notebooks/): Incluye notebooks de Python para limpieza de datos, EDA y modelos de machine learning.
-- [`img/`](img/): Incluye imágenes utilizadas en el readme. como la portada y visualizaciones.
-
 
 ## Flujo de Datos
 - Extracción de datos de hoteles de Estados Unidos por medio de librerias de Python como json, os, Pandas y AST y usando como fuente archivos iniciales de [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) y [Yelp!](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) en su mayoria presentes de forma no estructurada en formato json y fueron transformados a csv.
