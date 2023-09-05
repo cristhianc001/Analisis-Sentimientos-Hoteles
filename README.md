@@ -86,7 +86,7 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
            % Reviews negativas=  (Cantidad reviews negativas)/(Cantidad total de reviews)*100
 3.  Promedio de sentimiento: Puntuación promedio de sentimiento de las reviews, asignando valores a las palabras clave o frases, que reflejen emociones positivas o negativas, permite medir el nivel general de satisfacción y detectar tendencias.
            Puntuacion promedio de sentimiento=  (∑Puntuación de sentimiento)/(Cantidad total de reviews)
-4. Ratio por categoría de servicio: Analizar las reviews en función de las diferentes categorías de servicios del hotel ayuda a identificar las áreas específicas que están generando más comentarios emocionales. Las categorías serían: habitación, desayuno, limpieza y atención al cliente.
+4.  Ratio por categoría de servicio: Analizar las reviews en función de las diferentes categorías de servicios del hotel ayuda a identificar las áreas específicas que están generando más comentarios emocionales. Las categorías serían: habitación, desayuno, limpieza y atención al cliente.
            Ratio de menciones por categoría [habitación,desayuno, limpieza, atención al cliente] =  (Cantidad de reviews positivos de la categoría)/(Cantidad de reviews negativos de la categoría)
 5.	Comparación de sentimiento: Comparar el sentimiento de las reviews de tu hotel con el de los competidores directos proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
            Ratio de promedios de nuestro cliente sobre competencia =  (Promedio de sentimiento de nuestro cliente)/(Promedio de sentimiento de la competencia)
