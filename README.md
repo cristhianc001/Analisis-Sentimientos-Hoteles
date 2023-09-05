@@ -13,7 +13,10 @@
 - [Flujo de Datos](#tratamiento-de-datos)
 - [Stack Tecnologico](#stack-tecnologico)
 - [Planificacion de esfuerzos](#planificacion-de-esfuerzos)
-- [Analisis Exploratorio de Datos](#analisis-exploratorio-de-datos)
+- [Analisis Exploratorio de Datos Preliminar](#analisis-exploratorio-de-datos-preliminar)
+- [Construccion y Evaluacion de Modelos](#construccion-y-evaluacion-de-modelos)
+- [Analisis Exploratorio de Datos Final](#analisis-exploratorio-de-datos-final)
+- [Visualizacion de Resultados](#visualizacion-de-resultados)
 
 # Estructura del repositorio
 
@@ -144,7 +147,7 @@ Para visualizar el diagrama en linea, se puede acceder desde este [enlace](https
   <img src="img/7.jpg" alt="Analisis exploratorio de datos">
 </p>
 
-# Analisis Exploratorio de Datos
+# Analisis Exploratorio de Datos Preliminar
 
 A continuación se muestran algunos insights hallados en los EDA, para consultar la información completa consultar los archivos de analisis exploratorio de datos en  [`notebooks/`](notebooks/).
 
@@ -227,3 +230,13 @@ El numero de hoteles Ramada y reviews disponibles en los dataset proporcionados 
 
 ![Reviews por mes en Reno](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/lineas-meses-reviews-reno.png)
 *Reviews por mes en Ramada by Wyndham Reno Hotel & Casino*
+
+# Construccion y Evaluacion de Modelos
+
+# Analisis Exploratorio de Datos Final
+
+# Visualizacion de Resultados
+
+## Power BI
+
+## Stramlit
