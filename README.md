@@ -80,11 +80,17 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 
 # Key Performance Indicators
 
-1.	Porcentaje de revisiones positivas: Medir la proporción de revisiones que son consideradas positivas en comparación con el total de revisiones analizadas. 
-2.  Porcentaje de revisiones negativas: Medir la proporción de revisiones que son consideradas negativas en comparación con el total de revisiones analizadas. 
-3.  Puntuación promedio de sentimiento: Calcular la puntuación promedio de sentimiento de las revisiones, asignando valores a las palabras clave o frases que reflejen emociones positivas o negativas. Esto permite medir el nivel general de satisfacción y detectar tendencias.
-4. Número de menciones positivas/negativas por categoría de servicio: Analizar las revisiones en función de las diferentes categorías de servicios del hotel (habitaciones, restaurante, atención al cliente, etc.) y contar el número de menciones positivas y negativas en cada categoría. Esto ayuda a identificar las áreas específicas que están generando más comentarios emocionales.
-5.	Comparación de sentimiento con la competencia: Comparar el sentimiento de las revisiones de tu hotel con el de los competidores directos. Esto proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
+1.	Reviews positivas: porcentaje de reviews positivas según el rating. Esto permite entender la satisfacción general de los huéspedes.
+           % Reviews positivas =  (Cantidad reviews positivas)/(Cantidad total reviews)*100
+2.  Reviews negativas: Así como las positivas, medir las reviews negativas ayuda a identificar los aspectos que generan insatisfacción en los huéspedes.
+           % Reviews negativas=  (Cantidad reviews negativas)/(Cantidad total de reviews)*100
+3.  Promedio de sentimiento: Puntuación promedio de sentimiento de las reviews, asignando valores a las palabras clave o frases, que reflejen emociones positivas o negativas, permite medir el nivel general de satisfacción y detectar tendencias.
+           Puntuacion promedio de sentimiento=  (∑Puntuación de sentimiento)/(Cantidad total de reviews)
+4. Ratio por categoría de servicio: Analizar las reviews en función de las diferentes categorías de servicios del hotel ayuda a identificar las áreas específicas que están generando más comentarios emocionales. Las categorías serían: habitación, desayuno, limpieza y atención al cliente.
+           Ratio de menciones por categoría [habitación,desayuno, limpieza, atención al cliente] =  (Cantidad de reviews positivos de la categoría)/(Cantidad de reviews negativos de la categoría)
+5.	Comparación de sentimiento: Comparar el sentimiento de las reviews de tu hotel con el de los competidores directos proporciona una visión comparativa y ayuda a identificar áreas en las que se puede aprender de la competencia o destacar por encima de ella.
+           Ratio de promedios de nuestro cliente sobre competencia =  (Promedio de sentimiento de nuestro cliente)/(Promedio de sentimiento de la competencia)
+
 
 <p align="center">
   <img src="img/5.jpg" alt="Flujo de datos">
