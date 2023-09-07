@@ -115,7 +115,7 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 - Ingesta de datos en el servicio de almacenamiento de Google Cloud Platform, mediante la utilización de Cloud Functions para el proceso de ETL.
 - Construcción de Data Warehouse automatizado con el batch de datos provenientes de Google Cloud Storage, incluyendo carga incremental con Cloud Function proviniendo de la API de Google Places.
 - Consulta a la capa de consumo de BigQuery para construir el modelo de aprendizaje utilizando NLTK, OpenAI, Streamlit y dashboards utilizando PowerBI.
-- Utilizando Cloud Composer se orquestan los datos para todo el proceso, programandose las funciones necesarias para el ETL y disponibilizar los mismos. Se utilizaron DAGs para este fin, se encuentran disponibles en la carpeta composer.
+- Utilizando Cloud Composer se orquestan los datos para todo el proceso, programandose las funciones necesarias para el ETL y disponibilizar los mismos. Se utilizaron DAGs para este fin, se encuentran disponibles en la carpeta [`composer/`](composer/).
 
 <p align="center">
   <img src="img/6.jpg" alt="stack tecnologico">
