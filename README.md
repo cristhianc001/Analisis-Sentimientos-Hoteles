@@ -104,7 +104,9 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
 <p align="center">
   <img src="img/5.jpg" alt="Flujo de datos">
 </p>
-
+<p align="center">
+  <img src="flujo_de_datos.jpg" alt="Flujo de datos">
+</p>
 
 # Flujo de Datos
 - Extracción de datos de hoteles de Estados Unidos por medio de librerias de Python como json, os, Pandas y AST y usando como fuente archivos iniciales de [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) y [Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) en su mayoria presentes de forma no estructurada en formato json y fueron transformados a csv.
