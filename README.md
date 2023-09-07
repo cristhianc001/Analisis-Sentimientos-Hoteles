@@ -105,16 +105,16 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
   <img src="img/5.jpg" alt="Flujo de datos">
 </p>
 <p align="center">
-  <img src="flujo_de_datos.jpeg" alt="Data Pipeline">
+  <img src="img/flujo_de_datos.jpeg" alt="Data Pipeline">
 </p>
 
 # Flujo de Datos
-- Extracción de datos de hoteles de Estados Unidos por medio de librerias de Python como json, os, Pandas y AST y usando como fuente archivos iniciales de [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) y [Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) en su mayoria presentes de forma no estructurada en formato json y fueron transformados a csv.
-- Limpieza de dichos datos, lo que incluye eliminación de nulos y duplicados, renombrar columnas, arreglar columnas de fechas y normalización de tablas.
+- Extracción de datos de hoteles de Estados Unidos por medio de librerias de Python como json, os, Pandas, Outscraper y AST. Usamos como fuente archivos iniciales de [Google Maps](https://drive.google.com/drive/folders/1Wf7YkxA0aHI3GpoHc9Nh8_scf5BbD4DA) y [Yelp](https://drive.google.com/drive/folders/1TI-SsMnZsNP6t930olEEWbBQdo_yuIZF) en su mayoria presentes de forma no estructurada en formato json y la API de Google Places para obtener datos que se utilizan en la carga incremental.
+- Preprocesamiento de datos, lo que incluye eliminación de nulos y duplicados, renombrar columnas, arreglar columnas de fechas y normalización de tablas, mediante librerias como pandas y NumPy.
 - Análisis exploratorio de los datos para descubrir tendencias, cuotas de mercado, correlaciones, entre otros hallazgos.
-- Ingesta de datos en el servicio de almacenamiento de Google Cloud.
-- Construcción de Data Warehouse automatizado con el batch de datos provenientes de Google Cloud Storage, incluyendo carga incremental con data stream proveniento de las API de Google Maps y Yelp
-- Consulta a las bases de datos del data warehouse para construir modelo de aprendizaje y dashboards.
+- Ingesta de datos en el servicio de almacenamiento de Google Cloud Platform, mediante la utilización de Cloud Functions para el proceso de ETL.
+- Construcción de Data Warehouse automatizado con el batch de datos provenientes de Google Cloud Storage, incluyendo carga incremental con Cloud Function proviniendo de la API de Google Places.
+- Consulta a la capa de consumo de BigQuery para construir el modelo de aprendizaje utilizando NLTK, OpenAI, Streamlit y dashboards utilizando PowerBI.
 
 <p align="center">
   <img src="img/6.jpg" alt="stack tecnologico">
