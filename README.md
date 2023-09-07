@@ -105,7 +105,7 @@ El análisis se centrará en el período 2018 - 2023 y se limitará a las revisi
   <img src="img/5.jpg" alt="Flujo de datos">
 </p>
 <p align="center">
-  <img src="flujo_de_datos.jpg" alt="Flujo de datos">
+  <img src="flujo_de_datos.jpg" alt="Data Pipeline">
 </p>
 
 # Flujo de Datos
