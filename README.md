@@ -281,7 +281,7 @@ Para la clasificación de textos, las iteraciones se llevaron a cabo con modelos
 
 La precisión en este caso, al no poseer etiquetación previa con la cual comparar la predicción, se realizaron 20 pruebas con reviews al azar dentro del dataset.
 
-El modelo de Open AI destaca tanto en velocidad como en precisión sobre los modelos open source de Hugging Face. La única desventaja que tiene GPT 3.5 es ser de pago, pero se escogió este modelo porque el costo por consulta no es muy alto.
+El modelo de Open AI destaca tanto en velocidad como en precisión sobre los modelos open source de Hugging Face. La única desventaja que tiene GPT 3.5 es ser de pago, pero se escogió este modelo porque el costo por consulta no es muy alto (0.0015 usd por 1000 tokens de entrada y 0.002 usd por 1000 tokens de respuesta).
 
 Las pruebas de clasificación incluyeron tambien uso de vectorización, reducción de dimensionalidad, embeddings con resultados inconclusos que pueden ser observados en `13. clasificacion-evaluacion.ipynb`.
 
