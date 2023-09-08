@@ -257,10 +257,10 @@ El numero de hoteles Ramada y reviews disponibles en los dataset proporcionados 
 
 ## Streamlit
 
-Streamlit sirve como complemento al dashboard pues facilita de demostración de los modelos construidos y algunas visualizaciones que puede ser dificiles de leer en Power BI u otra herramienta similar.
+Streamlit sirve como complemento al dashboard pues facilita de demostración de los modelos construidos y algunas visualizaciones que puede ser dificiles de leer en Power BI u otra herramienta similar. La app se puede consultar mediante este [enlace](https://hotels.streamlit.app/). Si el servicio de Streamlit Cloud no esta disponible, se puede usar la app de forma local con el [repositorio](https://github.com/cristhianc001/hoteles_streamlit)
 
-![Reviews por mes en Reno](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/streamlit1.png)
+![Streamlit](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/streamlit1.png)
 *Wordcloud en Streamlit*
 
-![Reviews por mes en Reno](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/streamlit2.png)
+![Streamlit](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/streamlit2.png)
 *Prueba de modelos en Streamlit*
