@@ -251,13 +251,33 @@ El numero de hoteles Ramada y reviews disponibles en los dataset proporcionados 
 
 # Construccion y Evaluacion de Modelos
 
+Para calcular el puntaje de sentimiento, se realizaron pruebas con los modelos pre-entrenados de las librerias TextBlob y Vader
+
+| Modelo   | Tiempo de ejecucion aproximado por registro (seg.) | Precision (%)     |
+|:---------|:----:|-----------:|
+| TextBlob     | < 1   | 65 |
+| Vader    | < 1   | 70     |
+| TextBlob + Preprocesado    | < 1   | 66  |
+| Vader + Preprocesado    | < 1   | 73  |
+
+| Modelo*   | Tiempo de ejecucion aproximado por registro (seg.) | Precision (%)     |
+|:---------|:----:|-----------:|
+| facebook/bart-large-mnli     | 15   | 80 |
+| MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7    | 8   | 80     |
+| TextBlob + Preprocesado    | 8   | 80  |
+| Vader + Preprocesado    | 8   | 75  |
+| Vader + Preprocesado    | 8   | 65  |
+| Vader + Preprocesado    | 3   | 95  |
+*Estas pruebas ya incluyen preprocesado
+
+
 # Visualizacion de Resultados
 
 ## Power BI
 
 ## Streamlit
 
-Streamlit sirve como complemento al dashboard pues facilita de demostración de los modelos construidos y algunas visualizaciones que puede ser dificiles de leer en Power BI u otra herramienta similar. La app se puede consultar mediante este [enlace](https://hotels.streamlit.app/). Si el servicio de Streamlit Cloud no esta disponible, se puede usar la app de forma local con el [repositorio](https://github.com/cristhianc001/hoteles_streamlit)
+Streamlit sirve como complemento al dashboard pues facilita de demostración de los modelos construidos y algunas visualizaciones que puede ser dificiles de leer en Power BI u otra herramienta similar. La app se puede consultar mediante este [enlace](https://hotels.streamlit.app/). Si el servicio de Streamlit Cloud no esta disponible, se puede usar la app de forma local con el [repositorio](https://github.com/cristhianc001/hoteles_streamlit).
 
 ![Streamlit](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/streamlit1.png)
 *Wordcloud en Streamlit*
