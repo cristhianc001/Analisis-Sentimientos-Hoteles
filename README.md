@@ -22,6 +22,7 @@
 
 - [`notebooks/`](notebooks/): Incluye notebooks de Python para limpieza de datos, EDA y modelos de machine learning.
 - [`img/`](img/): Incluye imágenes utilizadas en el readme. como la portada y visualizaciones.
+- [`composer/`](composer/): Incluye scripts de Python usados en la orquestación de flujo de datos.
 
 <p align="center">
   <img src="img/2.jpg" alt="Autores">
@@ -251,25 +252,38 @@ El numero de hoteles Ramada y reviews disponibles en los dataset proporcionados 
 
 # Construccion y Evaluacion de Modelos
 
-Para calcular el puntaje de sentimiento, se realizaron pruebas con los modelos pre-entrenados de las librerias TextBlob y Vader
+Para responder a las necesidades del cliente, se necesita un modelo que pueda cuantificar el sentimiento de las reseñas y tambien uno que pueda clasificarlas segun la categoria (limpieza, desayuno, atención al cliente y habitación) para que poder indentificar areas de mejora.
+
+Para calcular el puntaje de sentimiento, se realizaron pruebas con los modelos pre-entrenados de las librerias TextBlob y Vader. La precisión se midió de acuerdo al rating de las reviews, para rating menor a tres, se considera una review negativa, para mayores a tres se considera positiva y para iguales a tres se considera neutra. Mientras que el puntaje dado, tanto por TextBlob como por Vader, tiene un rango de -1 a 1, donde 1 es muy positivo y -1 es muy negativo y tiene una zona neutral entre -0.05 y 0.05.
+
+Teniendo esto en cuenta se comparó estas etiquetas teóricas con las etiquetas predichas por los modelos, obteniendo los siguientes resultados:
 
 | Modelo   | Tiempo de ejecucion aproximado por registro (seg.) | Precision (%)     |
 |:---------|:----:|-----------:|
 | TextBlob     | < 1   | 65 |
 | Vader    | < 1   | 70     |
 | TextBlob + Preprocesado    | < 1   | 66  |
-| Vader + Preprocesado    | < 1   | 73  |
+| **Vader + Preprocesado**    | < 1   | 73  |
+
+El preprocesado consiste en la traducción de emojis, marcas del traductor de Google y caracteres no alfanumericos. También se realizaron pruebas removiendo stopwords (palabras mas frecuentes en el idioma ingles que no aportan mucho valor al analisis), aplicado de stemming y lemmatización pero los resultados fueron peores, asi que se descartó su uso. Para mas detalles se puede consultar el notebook `12. sentimiento_evaluacion.ipynb` disponible en [`notebooks/`](notebooks/).
+
+Para la clasificación de textos, las iteraciones se llevaron a cabo con modelos disponibles en Hugging Face y con la API de Open AI para tener acceso al modelo GPT 3.5 Turbo.
 
 | Modelo*   | Tiempo de ejecucion aproximado por registro (seg.) | Precision (%)     |
 |:---------|:----:|-----------:|
 | facebook/bart-large-mnli     | 15   | 80 |
 | MoritzLaurer/mDeBERTa-v3-base-xnli-multilingual-nli-2mil7    | 8   | 80     |
-| TextBlob + Preprocesado    | 8   | 80  |
-| Vader + Preprocesado    | 8   | 75  |
-| Vader + Preprocesado    | 8   | 65  |
-| Vader + Preprocesado    | 3   | 95  |
+| MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli    | 8   | 80  |
+| sileod/deberta-v3-base-tasksource-nli    | 8   | 75  |
+| roberta-large-mnli    | 8   | 65  |
+| **GPT 3.5 Turbo**    | 3   | 95  |
 *Estas pruebas ya incluyen preprocesado
 
+La precisión en este caso, al no poseer etiquetación previa con la cual comparar la predicción, se realizaron 20 pruebas con reviews al azar dentro del dataset.
+
+El modelo de Open AI destaca tanto en velocidad como en precisión sobre los modelos open source de Hugging Face. La única desventaja que tiene GPT 3.5 es ser de pago, pero se escogió este modelo porque el costo por consulta no es muy alto.
+
+Las pruebas de clasificación incluyeron tambien uso de vectorización, reducción de dimensionalidad, embeddings con resultados inconclusos que pueden ser observados en `13. clasificacion-evaluacion.ipynb`.
 
 # Visualizacion de Resultados
 
