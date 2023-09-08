@@ -24,9 +24,6 @@
 - [`img/`](img/): Incluye imágenes utilizadas en el readme. como la portada y visualizaciones.
 - [`composer/`](composer/): Incluye scripts de Python usados en la orquestación de flujo de datos.
 
-<p align="center">
-  <img src="img/2.jpg" alt="Autores">
-</p>
 
 # Autores
 
