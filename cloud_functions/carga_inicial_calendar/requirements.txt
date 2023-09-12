@@ -1,0 +1,6 @@
+pandas
+datetime
+google-cloud-storage
+fsspec
+gcsfs
+pandas-gbq
