@@ -17,6 +17,7 @@
 - [Construccion y Evaluacion de Modelos](#construccion-y-evaluacion-de-modelos)
 - [Analisis Exploratorio de Datos Final](#analisis-exploratorio-de-datos-final)
 - [Visualizacion de Resultados](#visualizacion-de-resultados)
+- [Recomendaciones](#recomendaciones)
 
 # Estructura del repositorio
 
