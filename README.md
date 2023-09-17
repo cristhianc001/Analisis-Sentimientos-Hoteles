@@ -344,3 +344,5 @@ _Wordcloud en Streamlit_
 
 ![Streamlit](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/streamlit2.png)
 _Prueba de modelos en Streamlit_
+
+# Recomendaciones
