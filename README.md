@@ -288,11 +288,52 @@ La precisión en este caso, al no poseer etiquetación previa con la cual compar
 
 El modelo de Open AI destaca tanto en velocidad como en precisión sobre los modelos open source de Hugging Face. La única desventaja que tiene GPT 3.5 es ser de pago, pero se escogió este modelo porque el costo por consulta no es muy alto (0.0015 usd por 1000 tokens de entrada y 0.002 usd por 1000 tokens de respuesta).
 
-Las pruebas de clasificación incluyeron tambien uso de vectorización, reducción de dimensionalidad, embeddings con resultados inconclusos que pueden ser observados en `13. clasificacion-evaluacion.ipynb`.
+Las pruebas de clasificación incluyeron tambien uso de vectorización, reducción de dimensionalidad, embeddings con resultados inconclusos que pueden ser observados en `13. clasificacion_evaluacion.ipynb`.
+
+# Analisis Exploratorio de Datos Final
+
+A continuación se muestran algunos insights hallados en los EDA final usando la información extraida desde la API de Google Maps junto con la data inicial. Para consultar el analisis  completo consultar el archivo `16. eda_final.ipynb` en [`notebooks/`](notebooks/).
+
+## Analisis General
+
+![Barras](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-barra-numero-reviews.png)
+_Numero de reviews por Estado_
+
+![Lineas](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-barra-numero-reviews.png)
+_Numero de reviews por año_
+
+De acuerdo a la cantidad de reviews por año en los datos estudiados, se observa una caida fuerte en el año 2020 debido a la pandemia del covid19, y una vez se abrieron los servicios de nuevo hay una recuperación importante. 
+
+## Analisis para los hoteles de estudio
+
+![Wordcloud](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-wordcloud-rating-1-2.png)
+_Wordcloud para Rating 1 y 2_
+
+Para este caso consideramos como malo el servicio en aquellos hoteles con rating 1 y 2. Aquí se puede observar dentro de las palabras más repetidas hotel, personal, servicio, desayuno, cama, baño. De acuerdo con el rating, podría inferirse que hay una mala calificación frente a estos aspectos
+
+![Barras](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-promedio-5-estados.png)
+_Rating promedio por Estado_
+
+![Barras](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-sentimiento-habitacion.png)
+_Sentimiento para categoria Habitación_
+
+Cuando hacemos el análisis de sentimiento por habitación, solamente en Nueva York es superior el sentimiento positivo, en los demás estados el sentimient negativo prevalece en este punto.
+
+![Lineas](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-rating-mes.png)
+_Rating promedio por mes_
+
+![Lineas](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/final-sentimiento-mes.png)
+_Puntaje de sentimiento promedio por mes_
+
+En términos de promedio de rating según el mes, encontramos el pico más bajo en junio y la mejor calificación en Noviembre. En términos de promedio de sentiment_score según el mes, encontramos un comportamiento parecido al rating. No obstante el sentimiento puede calificarse como NEUTRO por su cercanía a 0.
 
 # Visualizacion de Resultados
 
 ## Power BI
+Para visualizar el dashboard en linea, se puede acceder desde este [enlace](https://app.powerbi.com/view?r=eyJrIjoiMTZlNDBjZjItYTBiOC00NDk1LWEzNzUtNjY0OGZiODY3Zjg1IiwidCI6IjYzMmQzMWE5LWIxNWItNDgyNi05ZWQxLTUyYmRmZmI5YjdlNCIsImMiOjl9).
+
+![Power BI](https://raw.githubusercontent.com/cristhianc001/Analisis-Sentimientos-Hoteles/main/img/dashboard-powerbi.png)
+_Dashboard Power BI_
 
 ## Streamlit
 
