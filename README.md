@@ -350,5 +350,11 @@ _Prueba de modelos en Streamlit_
 
 Basándonos en el análisis de los resultados obtenidos a partir del modelo de Machine Learning, podemos concluir en las siguientes recomendaciones para aplicar:
 
+1. Capacitar al personal en servicio y atención al cliente. 
+2. Mejorar los protocolos de limpieza de las habitaciones y zonas sociales. 
+3. Realizar fumigaciones y control de plagas más continuas. 
+4. Diseñar un menú para los restaurantes asesorados por un cheff profesional y que capacite al personal de cocina. 
+5. Realizar actividades de temporada para atraer huéspedes y brindar una mejor experiencia. Como ejemplo: Cenas de acción de gracias para familias que se hospeden en noviembre. Fiestas de Spring Break, Decoración navideña, de Haloween, entre otras.
+
 - Mejorar en lo posible los puntos a favor que tienen nuestros hoteles: la vista desde las habitaciones, la amabilidad de nuestro staff y el desayuno continental. Adoptar las ventajas que tienen nuestra competencia: una cama cómoda y un desayuno proteínico.
 - Corregir lo malo que tienen los hoteles de nuestro cliente: remodelar la habitación, problemas con el front-desk, los check-ins y outs, olores e insectos y el sabor de los productos del desayuno como waffles, cereales, etc. No tenemos que cometer los errores de nuestra competencia: tener un mal baño y ducha, problemas con la reserva, tener pelos o moho y no ofrecer un desayuno buffet.
