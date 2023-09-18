@@ -347,3 +347,7 @@ _Wordcloud en Streamlit_
 _Prueba de modelos en Streamlit_
 
 # Recomendaciones
+
+Basándonos en el análisis de los resultados obtenidos a partir del modelo de Machine Learning, podemos concluir en las siguientes recomendaciones para aplicar:
+Mejorar en lo posible los puntos a favor que tienen nuestros hoteles: la vista desde las habitaciones, la amabilidad de nuestro staff y el desayuno continental. Adoptar las ventajas que tienen nuestra competencia: una cama cómoda y un desayuno proteínico.   
+Debemos corregir lo malo que tienen los hoteles de nuestro cliente: remodelar la habitación, problemas con el front-desk, los check-ins y outs, olores e insectos y el sabor de los productos del desayuno como waffles, cereales, etc. No tenemos que cometer los errores de nuestra competencia: tener un mal baño y ducha, problemas con la reserva, tener pelos o moho y no ofrecer un desayuno buffet.
