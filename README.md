@@ -1,7 +1,6 @@
 <p align="center">
   <img src="img/1.jpg" alt="analisis de sentimientos">
 </p>
-
 # Tabla de Contenido
 
 - [Estructura del repositorio](#estructura-del-repositorio)
